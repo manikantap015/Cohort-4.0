@@ -4,8 +4,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
-public class ModuleOneApplication {
+public class SpringBootCohortApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(ModuleOneApplication.class, args);
+		SpringApplication.run(SpringBootCohortApplication.class, args);
 	}
 }
